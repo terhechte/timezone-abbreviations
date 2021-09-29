@@ -1,5 +1,8 @@
 # timezone-abbreviations
 
+[![crates.io](https://img.shields.io/crates/v/timezone-abbreviations)](https://crates.io/crates/timezone-abbreviations)
+[![docs.rs](https://docs.rs/timezone-abbreviations/badge.svg)](https://docs.rs/timezone-abbreviations/)
+
 This crate allows converting between timezone abbreviations to timezone information.
 
 [Note that timezone abbreviations are not standardized](https://stackoverflow.com/questions/56050292/is-there-a-way-to-parse-a-timezone-abbreviation-into-a-timezone-offset-in-rust):
