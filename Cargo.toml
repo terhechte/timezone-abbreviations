@@ -1,0 +1,17 @@
+[package]
+name = "timezone-abbreviations"
+version = "0.1.0"
+edition = "2018"
+authors = ["Benedikt Terhechte <terhechte@gmail.com>"]
+license = "MIT"
+description = "Translate timezone abbreviations into timezone information"
+readme = "README.md"
+repository = "https://github.com/terhechte/timezone-abbreviations"
+homepage = "https://github.com/terhechte/timezone-abbreviations"
+keywords = ["time", "zone", "timezone"]
+categories = ["date-and-time"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+phf = { version = "0.10", features = ["macros"] }
